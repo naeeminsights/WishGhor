@@ -1,0 +1,16 @@
+{
+  "name": "শুভেচ্ছা স্টুডিও",
+  "short_name": "শুভেচ্ছা",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5fb",
+  "theme_color": "#e8364f",
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
