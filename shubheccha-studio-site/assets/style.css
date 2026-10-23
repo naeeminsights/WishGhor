@@ -27,8 +27,8 @@ button,input,select,textarea{font:inherit;color:inherit}
 .occs a{flex:none;border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:7px 15px;font-weight:600;white-space:nowrap;text-decoration:none;color:var(--ink)}
 .occs a[aria-current="page"]{background:var(--ink);color:var(--card);border-color:var(--ink)}
 
-main{padding:20px 0 30px}
-.hero h1{font-family:var(--head);font-weight:800;font-size:clamp(1.65rem,4.2vw,2.6rem);line-height:1.5;padding-bottom:10px;margin:0 0 6px}
+main{padding:35px 0 30px}
+.hero h1{font-family:var(--head);font-weight:800;font-size:clamp(1.65rem,4.2vw,2.6rem);line-height:1.6;padding-top:15px;padding-bottom:10px;margin:0 0 10px}
 .hero p{color:var(--muted);margin:0 0 18px;max-width:70ch}
 .studio{display:grid;gap:18px}
 @media (min-width:960px){.studio{grid-template-columns:minmax(0,1fr) 420px;align-items:start}.stage{position:sticky;top:120px}}
@@ -49,7 +49,7 @@ main{padding:20px 0 30px}
 .fmtseg{max-width:150px}
 
 .panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;margin-bottom:14px}
-.panel h2{font-size:1rem;margin:0 0 10px;font-weight:700;display:flex;justify-content:space-between;align-items:center;line-height:1.5}
+.panel h2{font-size:1rem;margin:0 0 10px;font-weight:700;display:flex;justify-content:space-between;align-items:center;line-height:1.5;padding-top:5px}
 .tpls{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
 .tpl{border:2px solid transparent;border-radius:12px;padding:0;cursor:pointer;background:none;overflow:hidden;text-align:center}
 .tpl canvas{width:100%;height:auto;display:block;border-radius:10px}
